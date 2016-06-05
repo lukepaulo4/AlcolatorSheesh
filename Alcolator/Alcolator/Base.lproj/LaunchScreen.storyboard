@@ -39,7 +39,7 @@
                                 <rect key="frame" x="18" y="66" width="564" height="31"/>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PAd-i5-d3u">
-                                <rect key="frame" x="35" y="205" width="530" height="26"/>
+                                <rect key="frame" x="240" y="205" width="120" height="26"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
                                 <color key="textColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -49,14 +49,14 @@
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstAttribute="leadingMargin" secondItem="bhp-Ox-Ue3" secondAttribute="leading" id="5mx-Qe-zBL"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="PAd-i5-d3u" secondAttribute="trailing" constant="15" id="717-Jn-f84"/>
                             <constraint firstItem="3wN-ua-6kB" firstAttribute="width" secondItem="bhp-Ox-Ue3" secondAttribute="width" id="H9y-8F-3UT"/>
                             <constraint firstItem="bhp-Ox-Ue3" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="8" id="HAu-0L-fQG"/>
                             <constraint firstAttribute="trailingMargin" secondItem="bhp-Ox-Ue3" secondAttribute="trailing" id="KVc-ru-Bxh"/>
                             <constraint firstItem="3wN-ua-6kB" firstAttribute="centerX" secondItem="bhp-Ox-Ue3" secondAttribute="centerX" id="NXm-1L-1fj"/>
+                            <constraint firstItem="PAd-i5-d3u" firstAttribute="trailing" secondItem="8xV-8x-Fzs" secondAttribute="trailing" id="ROc-XB-0zS"/>
                             <constraint firstItem="8xV-8x-Fzs" firstAttribute="top" secondItem="3wN-ua-6kB" secondAttribute="bottom" constant="18" id="YgO-Fs-JjS"/>
+                            <constraint firstItem="PAd-i5-d3u" firstAttribute="leading" secondItem="8xV-8x-Fzs" secondAttribute="leading" id="gcP-gU-KZS"/>
                             <constraint firstItem="PAd-i5-d3u" firstAttribute="top" secondItem="8xV-8x-Fzs" secondAttribute="bottom" constant="61" id="otl-4R-0uf"/>
-                            <constraint firstItem="PAd-i5-d3u" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="15" id="tXj-In-bqs"/>
                             <constraint firstItem="3wN-ua-6kB" firstAttribute="top" secondItem="bhp-Ox-Ue3" secondAttribute="bottom" constant="8" id="x1P-Go-hge"/>
                             <constraint firstItem="8xV-8x-Fzs" firstAttribute="centerX" secondItem="3wN-ua-6kB" secondAttribute="centerX" id="zMm-6K-JBO"/>
                         </constraints>
